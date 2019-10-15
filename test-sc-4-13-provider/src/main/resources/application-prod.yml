@@ -1,0 +1,13 @@
+swagger:
+  enabled: false
+server:
+  error:
+    include-stacktrace: never
+    include-exception: false
+spring:
+  datasource:
+    username: root
+    password: root
+    url: 'jdbc:mysql://127.0.0.1:3306/db_name'
+  thymeleaf:
+    cache: true
